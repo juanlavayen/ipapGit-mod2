@@ -1,0 +1,49 @@
+Principales diferencias entre GitLab y GitHub
+
+Propiedad y enfoque
+
+GitHub: propiedad de Microsoft desde 2018. Está más orientado a la colaboración abierta y el desarrollo de software en comunidad.
+
+GitLab: desarrollado por GitLab Inc., con enfoque en DevOps y automatización del ciclo completo de desarrollo.
+
+Modelo de alojamiento
+
+GitHub: servicio en la nube, aunque permite GitHub Enterprise Server para entornos on-premise.
+
+GitLab: ofrece tanto una versión en la nube como autoalojamiento completo, lo que lo hace ideal para entornos corporativos con requisitos de control interno.
+
+CI/CD integrado
+
+GitHub: incorpora GitHub Actions para CI/CD, potente y flexible, pero introducido más recientemente.
+
+GitLab: destaca por tener CI/CD totalmente integrado desde hace más tiempo, con pipelines configurables desde el inicio del proyecto.
+
+Gestión de proyectos
+
+GitHub: incluye funcionalidades como Projects, Issues y Discussions, centradas en la comunidad y colaboración.
+
+GitLab: ofrece herramientas más completas de gestión de proyectos tipo DevOps: tableros Kanban, seguimiento de incidencias, planificación de versiones y más.
+
+Privacidad y repositorios
+
+GitHub: todos los usuarios pueden tener repositorios privados en los planes gratuitos, con ciertas limitaciones.
+
+GitLab: permite repositorios privados sin restricciones desde su versión gratuita.
+
+Interfaz y experiencia de usuario
+
+GitHub: interfaz más sencilla, ideal para usuarios nuevos y proyectos open source.
+
+GitLab: interfaz más compleja, con más funcionalidades integradas (como monitoreo, seguridad y despliegue continuo).
+
+Integraciones
+
+GitHub: gran ecosistema de integraciones a través del GitHub Marketplace.
+
+GitLab: muchas funciones están integradas de forma nativa, reduciendo la necesidad de servicios externos.
+
+Licencias y código abierto
+
+GitHub: código cerrado.
+
+GitLab: su edición Community es de código abierto, aunque algunas funciones avanzadas son exclusivas de la edición Enterprise.

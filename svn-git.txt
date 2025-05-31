@@ -1,0 +1,48 @@
+Principales diferencias entre Subversion (SVN) y Git
+Modelo de control de versiones
+
+SVN: utiliza un modelo centralizado. Existe un único repositorio central desde el cual los usuarios descargan y hacia el cual suben los cambios.
+
+Git: emplea un modelo distribuido, donde cada usuario clona el repositorio completo (con todo su historial), lo que permite trabajar de forma autónoma y sin conexión.
+
+Rendimiento y velocidad
+
+SVN: suele ser más lento en operaciones que involucran historial, ya que consulta al servidor.
+
+Git: es mucho más rápido en la mayoría de las operaciones porque todo el historial está en local.
+
+Manejo de versiones
+
+SVN: versiona archivos de forma individual. Cada archivo tiene su propia revisión.
+
+Git: versiona el estado completo del proyecto (snapshot), no archivos aislados.
+
+Fusión de ramas (merging)
+
+SVN: el manejo de ramas y fusiones puede ser más complejo y propenso a errores.
+
+Git: está optimizado para trabajar con ramas; las fusiones son más eficientes y frecuentes.
+
+Requisitos de red
+
+SVN: requiere acceso constante al servidor para la mayoría de las acciones.
+
+Git: permite trabajar offline; las acciones locales no dependen de la red.
+
+Tamaño del repositorio
+
+SVN: puede ser más eficiente para proyectos muy grandes con historial extenso y muchos binarios.
+
+Git: almacena todo el historial localmente, lo que puede hacer que el repositorio pese más al principio, pero se vuelve más eficiente en el tiempo.
+
+Seguridad y control
+
+SVN: ofrece un control más granular sobre los permisos a nivel de carpetas.
+
+Git: los permisos suelen gestionarse a nivel del repositorio completo, aunque esto se puede complementar con herramientas externas.
+
+Popularidad y comunidad
+
+SVN: sigue siendo usado en algunos entornos corporativos tradicionales.
+
+Git: es el sistema más usado actualmente en desarrollo de software, con una comunidad mucho más activa y soporte de plataformas como GitHub, GitLab y Bitbucket.
